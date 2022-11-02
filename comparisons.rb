@@ -60,21 +60,26 @@ puts "Is the number_students less than or equal to 21?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: This line is asking if 4 is less than 9 which will evaluate to true.
+
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: This line is asking if 4 is less than the value assigned to the variable `books`.
+# Since the value of `books` is assigned as 3, which is less than 4, this will evaluate to false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: This line is asking if the value of variable `friends` is greater than the value of variable `siblings`.
+# Since the value of `friends` is 6 and the value of `siblings` is 2, this will evaulate to true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: This line is asking if the value of variable `attendees` is not equal to the value of variable `meals`.
+# Since the value assigned to `attendees` is set to 9 and the value assigned to `meals` is 8, this would make the variables not equal
+# so this line will evaluate to true
 
 
 #-------------------
@@ -97,15 +102,19 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
+# This prints true
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
+# This prints false
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
+# This prints true
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age < 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: False
