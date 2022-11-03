@@ -1,5 +1,5 @@
-number = 347
- if number == 347
+number = 3472
+ if number.odd?
     puts "odd"
  else 
     puts "even"
